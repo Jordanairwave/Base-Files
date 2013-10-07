@@ -7,17 +7,13 @@
 	<title>Title Here</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Blink of An Eye Photography offer professional Photography Services to Gloucestershire and the surrounding area. For  call today on 07795 708 997" />
-	<meta name="keywords" content="Wedding Photography Gloucestershire, Wedding Photographer Gloucestershire, Portrait Photographer Gloucestershire," />
 	<meta name="author" content="Ems Internet" />
-	<meta name="copyright" content="copyright &copy; 2010 - blinkofaneyephotography.co.uk" />
-	<!--Geo location information-->
-	<meta name="geo.region" content="GB-GLS" />
-	<meta name="geo.placename" content="Tewkesbury" />
-	<meta name="geo.position" content="51.988639;-2.154848" />
-	<meta name="ICBM" content="51.988639, -2.154848" />
-	
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+	<meta name="copyright" content="copyright &copy; <?php echo date('Y'); ?> - blinkofaneyephotography.co.uk" />
+	<link href="css/style.css?v=1.0" rel="stylesheet" type="text/css" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="icon" href="favicon.ico" type="image/x-icon"> 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 
@@ -45,8 +41,8 @@
 		</footer>
 	</div>
 
-	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js?v=1.0"></script>
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
