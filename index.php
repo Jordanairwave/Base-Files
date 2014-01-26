@@ -7,8 +7,7 @@
 	<title>Title Here</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Blink of An Eye Photography offer professional Photography Services to Gloucestershire and the surrounding area. For  call today on 07795 708 997" />
-	<meta name="author" content="Ems Internet" />
-	<meta name="copyright" content="copyright &copy; <?php echo date('Y'); ?> - blinkofaneyephotography.co.uk" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/style.css?v=1.0" rel="stylesheet" type="text/css" />
 	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
