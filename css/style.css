@@ -49,3 +49,12 @@ em { font-style: italic; }
 article, aside, details, figure, footer, header, hgroup, nav, section {
 	display: block;
 }
+
+
+
+/* Media Queries
+-------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1200px) {
+		
+	
+}
