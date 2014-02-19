@@ -13,7 +13,12 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 
 	<script type="text/javascript" src="js/modernizr.custom.44232.js"></script>
-
+	<script>
+	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	  s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
 </head>
 <body>
 	<div id="page-wrap">
@@ -38,12 +43,6 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js?v=1.0"></script>
-	<script>
-	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-	  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	  s.parentNode.insertBefore(g,s)}(document,'script'));
-	</script>
 </body>
 
 </html>
