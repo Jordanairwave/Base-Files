@@ -11,8 +11,6 @@
 	<link href="css/style.css?v=1.0" rel="stylesheet" type="text/css" />
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
-
-	<script type="text/javascript" src="js/modernizr.custom.44232.js"></script>
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -24,9 +22,9 @@
 	<div id="page-wrap">
 		<header id="header">
 			
-				<nav id="main-nav">
-				
-				</nav>
+			<nav id="main-nav">
+			
+			</nav>
 			
 		</header>
 		<section id="main-content">
@@ -42,6 +40,7 @@
 	</div>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.44232.js"></script>
 	<script type="text/javascript" src="js/scripts.js?v=1.0"></script>
 </body>
 
