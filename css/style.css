@@ -27,6 +27,13 @@ tr:last-child td { border-bottom-width : 0; }
 tfoot { font-style : italic; }
 caption { background : transparent; }
 
+/* Fonts used */
+
+@font-face {
+
+
+}
+
 /* Font sizes use percentages and are based on Yahoo YUI 2 font sizes - http://yui.github.io/yui2/docs/yui_2.9.0_full/fonts/
 - If you want a bigger font use the formula size x 7.7 (50px x 7.7)
 ----------------------------------------------------------------------------------------- */
