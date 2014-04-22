@@ -27,7 +27,8 @@ tr:last-child td { border-bottom-width : 0; }
 tfoot { font-style : italic; }
 caption { background : transparent; }
 
-/* Modified from: http://code.google.com/p/blueprintcss/ 
+/* Font sizes use percentages and are based on Yahoo YUI 2 font sizes - http://yui.github.io/yui2/docs/yui_2.9.0_full/fonts/
+- If you want a bigger font use the formula size x 7.7 (50px x 7.7)
 ----------------------------------------------------------------------------------------- */
 body { font: 13px "Arial", sans-serif; line-height: 13px; }
 h1 { font-size: 277.2%/*36px*/; line-height: 120%; margin-bottom: 15px; }
@@ -50,7 +51,7 @@ article, aside, details, figure, footer, header, hgroup, nav, section {
 	display: block;
 }
 
-
+img { max-width: 100%; }
 
 /* Media Queries
 -------------------------------------------------------------------------------------------------------*/
