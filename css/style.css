@@ -52,6 +52,13 @@ abbr, acronym { border-bottom-width: 0; }
 strong { font-weight: bold; }
 em { font-style: italic; }
 
+/* General link styling */
+a:link,
+a:active,
+a:visited { text-decoration: none; color: #fff; }
+a:hover,
+a:focus { text-decoration: underline; color: #000; }
+
 /* Author Styles
 ------------------------------------------------------------------------------------------------------*/
 

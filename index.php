@@ -36,11 +36,9 @@
 <body>
 	<div id="page-wrap">
 		<header id="header">
-			
 			<nav id="main-nav">
 			
 			</nav>
-			
 		</header>
 		<section id="main-content">
 			
@@ -53,7 +51,6 @@
 			
 		</footer>
 	</div>
-
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.44232.js"></script>
 	<script type="text/javascript" src="js/scripts.js?v=1.0"></script>
