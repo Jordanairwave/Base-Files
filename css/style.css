@@ -59,6 +59,9 @@ a:visited { text-decoration: none; color: #fff; }
 a:hover,
 a:focus { text-decoration: underline; color: #000; }
 
+/* Clear fix */
+.clearfix:after { content: "."; visibility: hidden; display: block; height: 0; clear: both; }
+
 /* Author Styles
 ------------------------------------------------------------------------------------------------------*/
 
