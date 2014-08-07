@@ -27,11 +27,11 @@
 	<meta property=”og:description” content=”[DESCRIPTION OF PAGE]”/>
 	<meta property=”fb:admins” content=”USER_ID”/>
 	<!-- Twitter -->
-	<meta name=”twitter:card” content=”summary”>
-	<meta name=”twitter:url” content=”[URL OF CURRENT PAGE]”>
-	<meta name=”twitter:title” content=”[TITLE OF PAGE HERE]”>
-	<meta name=”twitter:description” content=”[DESCRIPTION - 200 CHARACTERS MAX LENGTH]”>
-	<meta name=”twitter:image” content=”[IMAGE TO BE SHARED, MUST BE SQUARE 154PX X 154PX]”>
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="TITLE OF PAGE HERE">
+	<meta name="twitter:description" content="DESCRIPTION - 200 CHARACTERS MAX LENGTH">
+	<meta name="twitter:image:src" content="IMAGE TO BE SHARED, MUST BE SQUARE 154PX X 154PX">	
+	<meta name="twitter:url" content="URL OF CURRENT PAGE">
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
