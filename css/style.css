@@ -40,7 +40,7 @@ caption { background : transparent; }
 body { font: 13px "Arial", sans-serif; line-height: 13px; }
 h1 { font-size: 277.2%/*36px*/; line-height: 120%; margin-bottom: 15px; }
 h2 { font-size: 182% /*24px*/; line-height: 130%; margin-bottom: 15px; }
-h3 { font-size: 138.55 /*18px*/; line-height: 140%; margin-bottom: 15px; }
+h3 { font-size: 138.55% /*18px*/; line-height: 140%; margin-bottom: 15px; }
 h4 { font-size: 116% /*15px*/; line-height: 140%; margin-bottom: 15px; }
 h5 { font-size: 93%/*12px*/; line-height: 140%; margin-bottom: 15px; }
 p { margin-bottom: 15px; font-size: 100%; line-height: 150%; }
