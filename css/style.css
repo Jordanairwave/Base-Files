@@ -46,8 +46,8 @@ h5 { font-size: 93%/*12px*/; line-height: 140%; margin-bottom: 15px; }
 p { margin-bottom: 15px; font-size: 100%; line-height: 150%; }
 li { font-size: 100%; line-height: 150%; margin-bottom: 5px; }
 ul, ol { margin-left: 30px; }
-ul { list-style-type : none; list-style-position : inside; }
-ol { list-style-type : decimal; list-style-position : inside; }
+ul { list-style-type : disc; list-style-position : inside; margin-bottom: 15px; }
+ol { list-style-type : decimal; list-style-position : inside; margin-bottom: 15px; }
 abbr, acronym { border-bottom-width: 0; }
 strong { font-weight: bold; }
 em { font-style: italic; }

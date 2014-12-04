@@ -17,8 +17,7 @@
 	<meta name="geo.placename" content="oxford" />
 	<meta name="geo.position" content="55.378051;-3.435973" />
 	<meta name="ICBM" content="55.378051, -3.435973" />
-	<!-- Google -->
-	<link rel=”author” href=”https://plus.google.com/[YOUR PERSONAL G+ PROFILE HERE]“/>
+
 	<!-- Facebook -->
 	<meta property=”og:title” content=”[TITLE OF PAGE HERE]”/>
 	<meta property=”og:type” content=”website”/>
