@@ -19,3 +19,5 @@ List of fonts to go here and where they came from
 ### Jquery Plugins Used ###
 
 Modernizr
+
+### Colours Used ###
