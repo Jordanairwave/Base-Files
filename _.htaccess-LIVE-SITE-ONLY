@@ -1,7 +1,8 @@
 #Rewrite www to non www
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^YOUR DOMAIN.COM$ [NC]
-RewriteRule ^(.*)$ http://YOUR DOMAIN.COMm/$1 [L,R=301]
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 #Browser Caching
 <IfModule mod_expires.c>
