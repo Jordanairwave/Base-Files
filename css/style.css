@@ -40,6 +40,7 @@ caption { background : transparent; }
 /* Font sizes use percentages and are based on Yahoo YUI 2 font sizes - http://yui.github.io/yui2/docs/yui_2.9.0_full/fonts/
 - If you want a bigger font use the formula size x 7.7 (50px x 7.7)
 ----------------------------------------------------------------------------------------- */
+html { -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; }
 body { font: 13px "Arial", sans-serif; line-height: 13px; }
 h1 { font-size: 277.2%/*36px*/; line-height: 120%; margin-bottom: 15px; }
 h2 { font-size: 182% /*24px*/; line-height: 130%; margin-bottom: 15px; }
