@@ -22,7 +22,7 @@
 	<meta property=”og:title” content=”[TITLE OF PAGE HERE]”/>
 	<meta property=”og:type” content=”website”/>
 	<meta property=”og:image” content=”[LINK TO THUMBNAIL MUST BE SQUARE 154PX X 154PX]”/>
-	<meta property=”og:url” content=”[URL OF CURRENT PAGE]”/>
+	<meta property=”og:url” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>/>
 	<meta property=”og:description” content=”[DESCRIPTION OF PAGE]”/>
 	<meta property=”fb:admins” content=”USER_ID”/>
 	<!-- Twitter -->
@@ -30,7 +30,7 @@
 	<meta name="twitter:title" content="TITLE OF PAGE HERE">
 	<meta name="twitter:description" content="DESCRIPTION - 200 CHARACTERS MAX LENGTH">
 	<meta name="twitter:image:src" content="IMAGE TO BE SHARED, MUST BE SQUARE 154PX X 154PX">	
-	<meta name="twitter:url" content="URL OF CURRENT PAGE">
+	<meta name="twitter:url" content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>>
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
