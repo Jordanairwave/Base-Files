@@ -21,15 +21,14 @@
 	<!-- Facebook -->
 	<meta property=”og:title” content=”[TITLE OF PAGE HERE]”/>
 	<meta property=”og:type” content=”website”/>
-	<meta property=”og:image” content=”[LINK TO THUMBNAIL MUST BE SQUARE 154PX X 154PX]”/>
-	<meta property=”og:url” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>/>
-	<meta property=”og:description” content=”[DESCRIPTION OF PAGE]”/>
-	<meta property=”fb:admins” content=”USER_ID”/>
+	<meta property=”og:image” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]social.png"; ?>>
+	<meta property=”og:url” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
+	<meta property=”og:description” content=”<?php echo $pageDescription; ?>”/>
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="TITLE OF PAGE HERE">
-	<meta name="twitter:description" content="DESCRIPTION - 200 CHARACTERS MAX LENGTH">
-	<meta name="twitter:image:src" content="IMAGE TO BE SHARED, MUST BE SQUARE 154PX X 154PX">	
+	<meta name="twitter:description" content="<?php echo $pageDescription; ?>">
+	<meta name="twitter:image:src" content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]social.png"; ?>>	
 	<meta name="twitter:url" content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>>
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
