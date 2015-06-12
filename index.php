@@ -19,17 +19,19 @@
 	<meta name="ICBM" content="55.378051, -3.435973" />
 
 	<!-- Facebook -->
-	<meta property=”og:title” content=”[TITLE OF PAGE HERE]”/>
-	<meta property=”og:type” content=”website”/>
-	<meta property=”og:image” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]social.png"; ?>>
-	<meta property=”og:url” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
-	<meta property=”og:description” content=”<?php echo $pageDescription; ?>”/>
+	<meta property=”og:title” content=<?php echo $pageTitle; ?>>
+	<meta property=”og:type” content=”website”>
+	<meta property=”og:image” content=<?php echo "http://$_SERVER[HTTP_HOST]/social.png"; ?>>
+	<meta property=”og:url” content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>>
+	<meta property=”og:description” content=<?php echo $pageDescription; ?>>
+	
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="TITLE OF PAGE HERE">
-	<meta name="twitter:description" content="<?php echo $pageDescription; ?>">
-	<meta name="twitter:image:src" content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]social.png"; ?>>	
+	<meta name="twitter:title" content=<?php echo $pageTitle; ?>>
+	<meta name="twitter:description" content=<?php echo $pageDescription; ?>>
+	<meta name="twitter:image:src" content=<?php echo "http://$_SERVER[HTTP_HOST]/social.png"; ?>>	
 	<meta name="twitter:url" content=<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>>
+	
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
