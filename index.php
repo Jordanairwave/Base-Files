@@ -63,8 +63,8 @@
 		</footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script defer type="text/javascript" src="js/modernizr.custom.44232.js"></script>
-	<script defer type="text/javascript" src="js/scripts.js?v=1.0"></script>
+	<script defer async type="text/javascript" src="js/modernizr.custom.44232.js"></script>
+	<script defer async type="text/javascript" src="js/scripts.js?v=1.0"></script>
 </body>
 
 </html>
