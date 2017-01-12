@@ -51,9 +51,11 @@
 			
 			</nav>
 		</header>
-		<section id="main-content">
+		<article id="main-content">
+			<section>
 			
-		</section>
+			</section>
+		</article>
 		<aside id="sidebar">
 			
 			
