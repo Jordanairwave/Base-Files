@@ -1,6 +1,7 @@
 ﻿<?php
 	$pageTitle = 'Title Here';
 	$pageDescription = 'Page description here';
+	$socialImage = '';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,13 +14,13 @@
 
 	<meta property="og:title" content="<?php echo $pageTitle; ?>">
 	<meta property="og:description" content="<?php echo $pageDescription; ?>">
-	<meta property="og:image" content="<?php echo "http://$_SERVER[HTTP_HOST]/social.png"; ?>">
+	<meta property=”og:image” content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . '/' . $socialImage; ?>"  /> <?php //1200x630 ?>
 	<meta property="og:image:alt" content="Image description">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:type" content="website">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta property="og:url" content="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]">
-	<link rel="canonical" href="https://www.mywebsite.com/page">
+	<meta property="og:url" content=<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>>
+	<link rel="canonical" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
 
 	<link href="css/style.css?v=<?php echo filemtime( 'css/style.css' ) ?>" rel="stylesheet" type="text/css" />
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
